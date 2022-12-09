@@ -18,10 +18,10 @@ class Menubar extends Component{
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav>
                                 <Nav.Link >Home</Nav.Link>
-                                <Nav.Link onClick={(e) => {e.preventDefault(); window.location.replace('/#aboutMe');}}>About Me</Nav.Link>
-                                <Nav.Link onClick={(e) => {e.preventDefault(); window.location.replace('/#skills');}}>Skills</Nav.Link>
-                                <Nav.Link onClick={(e) => {e.preventDefault(); window.location.replace('/#projects');}}>Project</Nav.Link>
-                                <Nav.Link onClick={(e) => {e.preventDefault(); window.location.replace('/#contact');}}>Contact Me</Nav.Link>
+                                <Nav.Link href='#aboutMe'>   About Me</Nav.Link>
+                                <Nav.Link href='#skills'>Skills</Nav.Link>
+                                <Nav.Link href='#projects'>Project</Nav.Link>
+                                <Nav.Link href='#contact'>Contact Me</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
@@ -31,4 +31,3 @@ class Menubar extends Component{
     }
 }
 export default Menubar;
-
