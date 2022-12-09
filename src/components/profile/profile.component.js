@@ -37,7 +37,7 @@ export default function Profile() {
                                     />
                                 </h1>
                                 <span className='pro-text'>
-                                    Ambitious Web Developer brings enthusiasm and detailed understanding of various programming languages to webpage planning, development and maintenance.
+                                     Ambitious Web Developer brings enthusiasm and detailed understanding of various programming languages to webpage planning, development and maintenance.
                                 </span>
                             </span>
                         </Row>
